@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "library": "ducking.clap",
+  "plugin_id": "org.nodivu.ducking",
+  "title": "Ducking",
+  "description": "Abaixa a música enquanto o sinal de referência está ativo.",
+  "accent": "#64dabb",
+  "layout": "stack",
+  "controls": [
+    {
+      "parameter": 0,
+      "label": "Redução",
+      "widget": "slider",
+      "unit": "dB",
+      "group": "Resposta",
+      "quick": true,
+      "help": ""
+    },
+    {
+      "parameter": 1,
+      "label": "Sensibilidade",
+      "widget": "slider",
+      "unit": "dBFS",
+      "group": "Resposta",
+      "quick": false,
+      "help": "Referência controla o volume; não é somada à saída."
+    },
+    {
+      "parameter": 2,
+      "label": "Ataque",
+      "widget": "slider",
+      "unit": "ms",
+      "group": "Resposta",
+      "quick": false,
+      "help": ""
+    },
+    {
+      "parameter": 3,
+      "label": "Retorno",
+      "widget": "slider",
+      "unit": "ms",
+      "group": "Resposta",
+      "quick": false,
+      "help": ""
+    },
+    {
+      "parameter": 4,
+      "label": "Espera",
+      "widget": "slider",
+      "unit": "ms",
+      "group": "Resposta",
+      "quick": false,
+      "help": ""
+    }
+  ]
+}
